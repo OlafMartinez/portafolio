@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Profesional</title>
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+
+    <img src="/pic/1.jpeg" alt="Foto de perfil" class="perfil">
+
+    <h1>Edgar Olaf Martinez Torres</h1>
+    <p>Desarrollador Java Full Stack Jr. | Java | Python | Java Script</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="sobre">
+    <h2 class="titulo">Sobre mí</h2>
+
+    <p class="sobre-mi">
+      Soy Ingeniero en Informática con un fuerte interés en la tecnología, la innovación y la creación de soluciones digitales eficientes. Me especializo en el desarrollo web con HTML y en programación con Python, enfocado en construir herramientas funcionales que optimicen procesos y mejoren la productividad.
+    </p>
+  </section>
+
+  <section id="proyectos">
+    <h2 class="titulo">Mis Proyectos</h2>
+
+    <div class="proyectos">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt="Proyecto 1">
+
+        <div class="contenido">
+          <h3>Kinetix Fit</h3>
+
+          <p>
+            Ecommerce de ropa deportiva desarrollado con HTML, CSS,
+            JavaScript y Bootstrap.
+          </p>
+
+          <a href="https://kinetixsports.netlify.app/" target="_blank" class="btn">
+            Ver Proyecto
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="Proyecto 2">
+
+        <div class="contenido">
+          <h3>Convertidor de Temperaturas</h3>
+
+          <p>
+            Aplicación web interactiva para convertir grados Celsius,
+            Fahrenheit y Kelvin.
+          </p>
+
+          <a href="https://gilded-vacherin-44c9a0.netlify.app/" target="_blank" class="btn">
+            Ver Proyecto
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" alt="Proyecto 3">
+
+        <div class="contenido">
+          <h3>Portafolio Web</h3>
+
+          <p>
+            Sitio web responsivo para mostrar experiencia,
+            habilidades y proyectos personales.
+          </p>
+
+          <a href="https://linkedin.com/" target="_blank" class="btn">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2 class="titulo">Contacto</h2>
+
+    <div class="contacto-container">
+      <button class="btn" onclick="mostrarMensaje()">
+        Mostrar Contacto
+      </button>
+
+      <p id="mensaje"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Portafolio Profesional</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
